@@ -29,3 +29,30 @@ Diese Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prakt
 .... level 4
 ..... level 5
 . level 1
+=== Tabellen und Textformatierung
+
+.Table Title
+|===
+|Formatierung |Syntax |Beschreibung
+
+|*bold*
+|+*bold*+
+|fetter Text
+
+|_italic_
+|+*italic*+
+|kursiver Text
+
+|`monospace`
+|+*monospace*+
+|Text mit fester Laufweite
+
+|*_bold&italic_*
+|+*_bold&italic_*+
+|Text mit kombinierter Formatierung
+
+|**bold**&__italic__
+|+**bold**&__italic__+
+|Text mit Formatierung innerhalb eines Wortes
+|===
+*S* _o_ `ftw` _a_ `r` _e_ *E* `ng` _i_ `n` _ee_ `r` _i_ `ng`
