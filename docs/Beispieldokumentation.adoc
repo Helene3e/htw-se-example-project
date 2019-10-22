@@ -3,6 +3,7 @@ Helene Uhlig
 1.0, 01.09.2019 
 :toc:
 :toc-title: Inhaltsverzeichnis
+source-highlighter: highlightjs
 // Platzhalter für weitere Dokumenten-Attribute
 
 == Einführung
@@ -56,3 +57,16 @@ Diese Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prakt
 |Text mit Formatierung innerhalb eines Wortes
 |===
 *S* _o_ `ftw` _a_ `r` _e_ *E* `ng` _i_ `n` _ee_ `r` _i_ `ng`
+
+=== Quellcode
+.helloworld.c
+[source,c]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World\n");
+    return 0;
+}
+----
